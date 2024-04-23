@@ -17,7 +17,7 @@ const Feature = () => {
           <Card
             title="Business Stratagy"
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+              hic consequuntur eum repellendus ad."
             icon={null}
           />
           <Card

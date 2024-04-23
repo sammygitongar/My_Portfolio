@@ -18,13 +18,20 @@ export default {
         xl: "1280px",
       },
       colors: {
-        bodyColor: "#0B1120",
-        lightText: "#c4cfde",
-        boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#ff014f",
+        bodyColor2: "#0B1120",
+        lightText2: "#c4cfde",
+        boxBg2: "linear-gradient(145deg, #1e2024, #23272b)",
+        designColor2: "#ff014f",
+
+        bodyColor: "#e7edee",
+        boxBg: "linear-gradient(120deg,#b9b9b98f, #feffffa4)",
+        designColor: "#8401ff",
+        lightText: "rgb(6, 14, 87)",
+
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #030712, -10px -10px 19px #0f172a",
+        shadowOne2: "10px 10px 19px #030712, -10px -10px 19px #0f172a",
+        shadowOne: "2px 2px 20px #607070",
       },
     },
   },

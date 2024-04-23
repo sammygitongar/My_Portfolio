@@ -9,7 +9,7 @@ const RightBanner = () => {
         src={bannerImg}
         alt="bannerImg"
       />
-      <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#0B1120] shadow-shadowOne flex justify-center items-center"></div>
+      <div className="absolute bottom-0 w-[350px] h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#00d9ff41] to-[#6e15e265] shadow-shadowOne flex justify-center items-center"></div>
     </FadeIn>
   );
 };

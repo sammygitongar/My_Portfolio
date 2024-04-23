@@ -9,7 +9,7 @@ import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
-    <main className="font-bodyFont w-full h-auto bg-bodyColor text-lightText">
+    <main className="font-bodyFont w-full h-auto bg-white text-lightText">
       <Navbar />
       <div className="px-4">
         <div className="max-w-screen-xl mx-auto">
