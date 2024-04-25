@@ -13,7 +13,8 @@ const ResumeCard = ({ title, subTitle, des }: any) => {
               {title}
             </h3>
             <p className="text-sm mt-2 text-gray-400 group-hover:text-white duration-300">
-              {subTitle}
+              {subTitle}\
+              
             </p>
           </div>
         </div>

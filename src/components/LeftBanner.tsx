@@ -1,6 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaYoutube, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaInstagram, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiPhp, SiMysql } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
@@ -31,22 +31,22 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-6">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://twitter.com/TechhVerse" target="_blank">
               <span className="bannerIcon">
-                <FaYoutube />
+                <FaTwitter />
               </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+              href="https://www.linkedin.com/in/sammy-gitongar-006805207/"
               target="_blank"
             >
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
             </a>
-            <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+            <a href="https://www.instagram.com/tosh_laflare/" target="_blank">
               <span className="bannerIcon">
-                <FaFacebookF />
+                <FaInstagram />
               </span>
             </a>
           </div>
@@ -60,13 +60,13 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
               <SiTailwindcss />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiPhp />
+            </span>
+            <span className="bannerIcon">
+              <SiMysql />
             </span>
           </div>
         </div>
