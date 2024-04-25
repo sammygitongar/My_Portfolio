@@ -54,12 +54,12 @@ const Contact = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="CONTACT" des="Contact With Me" />
+          <Title title="CONTACT" des="Talk To Me" />
         </div>
         <div className="w-full">
           <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
             <ContactLeft />
-            <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-bodyColor to-bodyColor flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+            <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-br from-[#ffff] to-[#b5f6f88e] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-xl">
               <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
                 {errMsg && (
                   <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
@@ -146,7 +146,7 @@ const Contact = () => {
                 <div className="w-full">
                   <button
                     onClick={handleSend}
-                    className="w-full h-12 bg-[#141518] rounded-lg text-base text-white tracking-wider uppercase hover:text-indigo-300 duration-300 hover:border-[1px] hover:border-designColor border-gray-600 border"
+                    className=" h-12 w-60 bg-[#6229a3] hover:bg-[#a7a7a728] rounded-lg text-lg text-white tracking-wider uppercase hover:text-designColor duration-300 hover:border-[1px] hover:border-designColor hover:border-[2px]"
                   >
                     Send Message
                   </button>

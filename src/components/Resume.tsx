@@ -14,7 +14,7 @@ const Resume = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+          <Title title="3+ YEARS OF EXPERIENCE" des="My Resume" />
         </div>
         <div>
           <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
@@ -25,7 +25,7 @@ const Resume = () => {
               }}
               className={`${
                 skillData
-                  ? "border-designColor rounded-lg"
+                  ? "border-black rounded-sm"
                   : "border-transparent"
               } resumeLi`}
             >
@@ -38,7 +38,7 @@ const Resume = () => {
               }}
               className={`${
                 experienceData
-                  ? "border-designColor rounded-lg"
+                  ? "border-black rounded-sm"
                   : "border-transparent"
               } resumeLi`}
             >

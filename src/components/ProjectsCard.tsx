@@ -9,7 +9,7 @@ interface Props {
 
 const ProjectsCard = ({ title, des, src }: Props) => {
   return (
-    <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-shadowOne flex flex-col bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b hover:from-gray-900 hover:gray-900 transition-colors duration-1000">
+    <div className="w-full p-4 xl:px-12 h-auto xl:py-10 rounded-lg shadow-lg flex flex-col bg-[#00000034] group hover:bg-gradient-to-tl hover:from-slate-100 hover:to-[#b5f6f88e] transition-colors duration-1000">
       <div className="w-full h-[80%] overflow-hidden rounded-lg">
         <img
           className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
@@ -36,7 +36,7 @@ const ProjectsCard = ({ title, des, src }: Props) => {
               </a>
             </div>
           </div>
-          <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
+          <p className="text-sm tracking-wide mt-3 hover:text-gray-700 duration-300">
             {des}
           </p>
         </div>

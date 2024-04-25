@@ -5,24 +5,25 @@
 
 @layer components {
   .bannerIcon {
-    @apply w-10 h-10 bg-black text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-gray-200 hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300 mb-3;
+    @apply w-10 h-10 bg-black text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-xl  hover:bg-gray-200 hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300 mb-3;
   }
   .resumeLi {
-    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
+    @apply w-full h-20 bg-black text-xl text-white flex justify-center cursor-pointer hover:bg-white duration-300 items-center border-[1px] rounded-none hover:text-black hover:border-black;
   }
   .bgOpacity {
     @apply bg-black bg-opacity-40;
   }
   .contactInput {
-    @apply w-full h-12 rounded-lg border-b-[1px] bg-[#ccc1d1] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300;
+    @apply w-full h-12 rounded-lg border-b-[1px] bg-[#a7a7a728] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300;
   }
   .contactTextArea {
-    @apply w-full rounded-lg border-b-[1px] border-b-gray-300 bg-[#ccc1d1] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none;
+    @apply w-full rounded-lg border-b-[1px] border-b-gray-300  bg-[#a7a7a728] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none;
+    
   }
 }
 
 .active {
-  color: white;
+  color: rgb(195, 0, 255);
 }
 .scrollbar-hide::-webkit-scrollbar {
   display: none;

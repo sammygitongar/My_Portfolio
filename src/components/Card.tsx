@@ -8,7 +8,7 @@ interface Props {
 
 const Card = ({ title, des, icon }: Props) => {
   return (
-    <div className="w-full px-12 h-80 py-10 rounded-lg shadow-shadowOne flex items-center bg-gradient-to-r from-bodyColor to-[#6245a56e] group hover:bg-gradient-to-b hover:from-black-100 hover:to-[#497283] transition-colors duration-100 group">
+    <div className="w-full px-12 h-80 py-10 rounded-lg shadow-lg flex items-center hover:bg-gradient-to-br from-[#ffff] to-[ transition-colors duration-100 group">
       <div className="h-72 overflow-y-hidden">
         <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
@@ -17,7 +17,7 @@ const Card = ({ title, des, icon }: Props) => {
             ) : (
               <>
                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-d#9af9fc8e]esignColor inline-flex"></span>
                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
               </>

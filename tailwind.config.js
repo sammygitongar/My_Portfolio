@@ -28,11 +28,15 @@ export default {
         designColor: "#8401ff",
         lightText: "rgb(6, 14, 87)",
 
+        cardBg: "linear-gradient(120deg,#b9b9b98f, #feffffa4)",
       },
       boxShadow: {
         shadowOne2: "10px 10px 19px #030712, -10px -10px 19px #0f172a",
         shadowOne: "2px 2px 20px #607070",
       },
+
+
+
     },
   },
   plugins: [],
