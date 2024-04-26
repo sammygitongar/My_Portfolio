@@ -8,9 +8,9 @@ interface Props {
 
 const Card = ({ title, des, icon }: Props) => {
   return (
-    <div className="w-full px-12 h-80 py-10 rounded-lg shadow-lg flex items-center hover:bg-gradient-to-br from-[#ffff] to-[ transition-colors duration-100 group">
-      <div className="h-72 overflow-y-hidden">
-        <div className="flex h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
+    <div className="w-full px-12 h-auto py-3 rounded-lg shadow-lg flex items-center hover:bg-gradient-to-br from-[#ffff] to-[#b5f6f88e] [ transition-colors duration-100 group">
+      <div className="h-96 overflow-y-hidden">
+        <div className="flex h-full flex-col gap-8 translate-y-16 group-hover:translate-y-0 transition-transform duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
             {icon ? (
               <span className="text-5xl text-designColor">{icon}</span>

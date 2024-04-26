@@ -1,9 +1,10 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { AiOutlineCloudServer, AiOutlineFileSearch } from "react-icons/ai";
+import { FaGlobe } from "react-icons/fa";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
+import { FaReact, FaAmazon, FaServer, FaFigma} from "react-icons/fa";
+
 
 const Feature = () => {
   return (
@@ -15,40 +16,35 @@ const Feature = () => {
         <Title title="Features" des="What I Do" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
           <Card
-            title="Business Stratagy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-              hic consequuntur eum repellendus ad."
-            icon={null}
+            title="Front-End Development"
+            des="Elevating user experiences with elegant UI/UX. I strive to make websites that are not only functional, but also easy and fun for users to use."
+            icon={<FaReact />}
           />
           <Card
-            title="App Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<AiFillAppstore />}
+            title="Server-Side Development"
+            des="Enhancing user experiences behind the scenes. My focus is on robust, efficient systems that power seamless interactions, ensuring reliability and scalability."
+            icon={<AiOutlineCloudServer />}
           />
           <Card
-            title="SEO Optimisation"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<SiProgress />}
+            title="
+            E-commerce Integration"
+            des="Streamlining online sales by integrating secure payment gateways and user-friendly shopping experiences, maximizing conversion rates and customer satisfaction."
+            icon={<FaAmazon />}
           />
           <Card
-            title="Mobile Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<FaMobile />}
+            title="SEO Optimization"
+            des="I will create quality text content to be posted online that is designed amplify search engine rankings and facilitate seamless discovery and engagement."
+            icon={<AiOutlineFileSearch />}
           />
           <Card
-            title="UX Design"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<SiAntdesign />}
+            title="Hosting Services"
+            des="Helping my clients select secure, high-performance hosting solutions, ensuring seamless accessibility and optimal user experiences for online platforms."
+            icon={<FaServer />}
           />
           <Card
-            title="Hosting Websites"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<FaGlobe />}
+            title="Design and Branding"
+            des="Looking to create cohesive design elements that resonate with your audience? Look no further. I help individuals and businesses create recognizable brands that foster lasting connections."
+            icon={<FaFigma />}
           />
         </div>
       </FadeIn>
