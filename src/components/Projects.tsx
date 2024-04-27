@@ -1,6 +1,6 @@
 import Title from "./Title";
 import ProjectsCard from "./ProjectsCard";
-import { projectOne, projectThree, projectTwo } from "../assets";
+import { agriApp, caCr, mCusa, nDoto } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 const Projects = () => {
@@ -16,42 +16,26 @@ const Projects = () => {
             des="My Projects"
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
           <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
+            title="Agronomist Business"
+            des=" Professional site showcasing agronomy services, crop management, sustainability practices, and consultation for farmers and agricultural businesses."
+            src={agriApp}
           />
           <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
+            title="A Website for a Charity"
+            des=" Dedicated platform highlighting charitable initiatives, donation drives, volunteering opportunities, impact stories, and ways to support communities"
+            src={caCr}
           />
           <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
+            title="Student Association Website"
+            des="Comprehensive site presenting party manifesto, candidate profiles, campaign updates, events, policies, and ways to engage in politics."
+            src={mCusa}
           />
           <ProjectsCard
-            title="SOCIAL MEDIA CLONE"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectThree}
-          />
-          <ProjectsCard
-            title="E-commerce Website"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectOne}
-          />
-          <ProjectsCard
-            title="Chatting App"
-            des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-            src={projectTwo}
+            title="College Class Management App"
+            des=" Efficient tool streamlining assignment submissions, feedback delivery, grading process, student-teacher communication, and academic performance tracking."
+            src={nDoto}
           />
         </div>
       </FadeIn>
