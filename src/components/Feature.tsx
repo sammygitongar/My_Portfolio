@@ -1,5 +1,4 @@
 import { AiOutlineCloudServer, AiOutlineFileSearch } from "react-icons/ai";
-import { FaGlobe } from "react-icons/fa";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
