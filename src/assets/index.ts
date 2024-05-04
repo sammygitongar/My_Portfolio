@@ -4,9 +4,9 @@ import agriApp from "./images/projects/agriApp.png"
 import caCr from "./images/projects/caCr.png"
 import mCusa from "./images/projects/mCusa.png"
 import nDoto from "./images/projects/nDoto.png"
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png";
+import testimonialOne from "./images/testmonial/testimonialOne.jpg";
+import testimonialTwo from "./images/testmonial/testimonialTwo.jpg";
+import testimonialThree from "./images/testmonial/testimonialThree.jpg";
 import contactImg from "./images/contact/contactImg.png";
 
 
@@ -15,7 +15,7 @@ export {
   bannerImg,
   testimonialOne,
   testimonialTwo,
-  quote,
+  testimonialThree,
   contactImg,
   agriApp,
   caCr,

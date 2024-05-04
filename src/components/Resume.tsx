@@ -34,14 +34,14 @@ const Resume = () => {
             <li
               onClick={() => {
                 setSkillData(false);
-                setExperienceData(true);
+                setExperienceData(false);
               }}
               className={`${
                 experienceData
                   ? "border-black rounded-sm"
                   : "border-transparent"
               } resumeLi`}
-            >
+            > 
               Experience
             </li>
           </ul>
