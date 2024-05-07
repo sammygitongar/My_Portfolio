@@ -1,6 +1,6 @@
 import { testimonialOne, testimonialTwo, testimonialThree} from "../assets";
-
-
+import { HiStar } from "react-icons/hi";
+import { HiOutlineStar } from "react-icons/hi";
 
   const Testimonial = () => {
     return(
@@ -21,11 +21,14 @@ import { testimonialOne, testimonialTwo, testimonialThree} from "../assets";
             Jubilee Party - Youth League National Chair
           </h6>
           <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos
-            id officiis hic tenetur quae quaerat ad velit ab hic.
+            Exceptional design and functionality! The website truly represents our youth league's vision and mission. Highly recommended.
           </p>
           <ul className="mb-0 flex justify-center">
-          
+            <HiStar/>
+            <HiStar/>
+            <HiStar/>
+            <HiStar/>
+            <HiOutlineStar/>
           </ul>
         </div>
 
@@ -41,8 +44,7 @@ import { testimonialOne, testimonialTwo, testimonialThree} from "../assets";
             Founder and CEO - Litstructure Technology
           </h6>
           <p className="mb-4">
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid commodi.
+            Outstanding work! The website truly mirrors our company's ethos and helps us connect with our audience effectively.
           </p>
           <ul className="mb-0 flex justify-center">
            
@@ -61,8 +63,7 @@ import { testimonialOne, testimonialTwo, testimonialThree} from "../assets";
             Executive Director - Children At Crossroads NGO
           </h6>
           <p className="mb-4">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti.
+          The website for Children At Crossroads NGO is beyond our expectations. It conveys our message of hope and support beautifully.
           </p>
           <ul className="mb-0 flex justify-center">
            
