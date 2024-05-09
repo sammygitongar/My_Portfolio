@@ -20,6 +20,8 @@
     @apply w-full rounded-lg border-b-[1px] border-b-gray-300  bg-[#a7a7a728] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none;
     
   }
+
+  
 }
 
 .active {

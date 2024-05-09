@@ -50,7 +50,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full py-20 border-b-[1px] border-b-gray-200"
+      className="w-full py-5 border-b-[1px] border-b-gray-200"
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">

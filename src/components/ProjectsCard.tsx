@@ -1,5 +1,4 @@
 import { BsGithub } from "react-icons/bs";
-
 interface Props {
   title: string;
   des: string;
